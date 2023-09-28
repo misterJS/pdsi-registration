@@ -1,5 +1,5 @@
 <?php
-$base_url = 'http://localhost/aplikasi-kartu-pro/';
+$base_url = 'http://localhost/pdsi-registration/';
 $config = [
 	'base_url' => $base_url
 	, 'images_url' => $base_url . 'public/images/'
