@@ -1,7 +1,7 @@
 <?php
 /**
 *	Aplikasi Kartu Professional
-*	Website	: https://jagowebdev.com
+*	Website	: https://pdsionline.org
 * 	Author	: Agus Prawoto Hadi
 *	Year	: 2022
 */

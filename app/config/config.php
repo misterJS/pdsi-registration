@@ -10,7 +10,7 @@ $config = [
 	, 'images_path' => 'public/images/'
 	, 'foto_path' => 'public/images/foto/'
 	, 'dokumen_path' => 'public/files/dokumen/'
-	, 'email_support' => 'support@jagowebdev.com'
+	, 'email_support' => 'admin@pdsionline.org'
 	
 	/* File Picker */
 	, 'thumbnail' => [

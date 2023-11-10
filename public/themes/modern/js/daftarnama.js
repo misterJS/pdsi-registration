@@ -1,7 +1,7 @@
 /**
 * Written by: Agus Prawoto Hadi
 * Year		: 2020
-* Website	: jagowebdev.com
+* Website	: pdsionline.org
 */
 
 jQuery(document).ready(function () {

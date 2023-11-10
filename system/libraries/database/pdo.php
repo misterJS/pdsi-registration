@@ -2,7 +2,7 @@
 /**
 *	Database library
 *	@author Agus Prawoto Hadi
-*	@website https://jagowebdev.com
+*	@website https://pdsionline.org
 * 	@copyright 2021
 */
 class Database

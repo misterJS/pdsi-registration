@@ -2,7 +2,7 @@
 /**
 *	PHP*	Year		: 2022
 *	Developed by: Agus Prawoto Hadi
-*	Website		: https://jagowebdev.com
+*	Website		: https://pdsionline.org
 *	Year		: 2022
 */
 
@@ -76,7 +76,7 @@ switch ($_GET['action'])
 									, 'to_name' => $_POST['email']
 									, 'email_subject' => 'Reset Password'
 									, 'email_content' => str_replace('{{url}}', $url, email_recovery_content() )
-									, 'images' => ['logo_text' => BASEPATH . 'public/images/logo_text.png']
+									, 'images' => ['logo_register' => BASEPATH . 'public/images/logo_register.png']
 					);
 					
 					require_once('app/libraries/SendEmail.php');

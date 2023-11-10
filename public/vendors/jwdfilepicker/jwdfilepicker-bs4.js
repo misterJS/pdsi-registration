@@ -1,7 +1,7 @@
 /**
 * JWD File Picker
 * @Copyright Agus Prawoto Hadi
-* @website https://jagowebdev.com
+* @website https://pdsionline.org
 * @relesase 2021-05-31
 */
 

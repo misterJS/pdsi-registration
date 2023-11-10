@@ -1,7 +1,7 @@
 /**
 * Written by: Agus Prawoto Hadi
 * Year		: 2022
-* Website	: jagowebdev.com
+* Website	: pdsionline.org
 */
 
 $(document).ready(function() 

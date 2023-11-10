@@ -8,9 +8,9 @@ class EmailConfig {
 	// public $provider = 'AmazonSES';
 
 	public $client = [	'standard' => [
-										'host' => 'mail.jagowebdev.com'
-										, 'username' => 'support@jagowebdev.com'
-										, 'password' => 'Password'
+										'host' => 'mail.pdsionline.org'
+										, 'username' => 'admin@pdsionline.org'
+										, 'password' => 'pdsionlineemail'
 									]
 						,'google' => ['client_id' => '848706937765-sbmpa0bk7qk06fh7tr7q2na5sv3n8g0s.apps.googleusercontent.com'
 										, 'client_secret' => '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'

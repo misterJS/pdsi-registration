@@ -16,8 +16,8 @@
 		<div class="row">
 			<div class="col-auto">
 				<select name="gender" class="form-select register-input">
-					<option value="L" <?=set_select('gender', 'L')?>>Bapak/Mas</option>
-					<option value="P" <?=set_select('gender', 'P')?>>Ibu/Mbak</option>
+					<option value="L" <?=set_select('gender', 'L')?>>Dokter</option>
+					<option value="P" <?=set_select('gender', 'P')?>>Prof</option>
 				</select>
 			</div>
 			<div class="col ps-0">

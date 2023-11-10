@@ -258,7 +258,7 @@ CREATE TABLE IF NOT EXISTS `sekolah` (
 
 -- Dumping data for table idcard_pelajar.sekolah: ~0 rows (approximately)
 INSERT INTO `sekolah` (`id_sekolah`, `nama_sekolah`, `alamat`, `tlp_fax`, `website`, `nama_dinas`, `logo`) VALUES
-	(1, 'Jagowebdev College', 'Jl. Jend. Sudirman No. 24 Solo', '(0271) 666667', 'www.jagowebdev.com', 'TECHNOLOGY DEPARTMENT', 'Logo Jagowebdev.png');
+	(1, 'Jagowebdev College', 'Jl. Jend. Sudirman No. 24 Solo', '(0271) 666667', 'www.pdsionline.org', 'TECHNOLOGY DEPARTMENT', 'Logo Jagowebdev.png');
 
 -- Dumping structure for table idcard_pelajar.setting
 CREATE TABLE IF NOT EXISTS `setting` (
@@ -274,10 +274,10 @@ INSERT INTO `setting` (`type`, `param`, `value`) VALUES
 	('app', 'btn_login', 'btn-danger'),
 	('app', 'deskripsi_web', 'Template administrasi lengkap dengan fitur penting dalam pengembangan aplikasi seperti pengatuan web, layout, dll'),
 	('app', 'favicon', 'favicon.png'),
-	('app', 'footer_app', '&copy; {{YEAR}} &lt;a href=&quot;https://jagowebdev.com&quot; target=&quot;_blank&quot;&gt;www.Jagowebdev.com&lt;/a&gt;'),
-	('app', 'footer_login', '&copy; {{YEAR}} &lt;a href=&quot;https://jagowebdev.com&quot; target=&quot;_blank&quot;&gt;Jagowebdev.com&lt;/a&gt;'),
+	('app', 'footer_app', '&copy; {{YEAR}} &lt;a href=&quot;https://pdsionline.org&quot; target=&quot;_blank&quot;&gt;www.pdsionline.org&lt;/a&gt;'),
+	('app', 'footer_login', '&copy; {{YEAR}} &lt;a href=&quot;https://pdsionline.org&quot; target=&quot;_blank&quot;&gt;pdsionline.org&lt;/a&gt;'),
 	('app', 'judul_web', 'Admin Template Jagowebdev'),
-	('app', 'logo_app', 'logo_aplikasi.png'),
+	('app', 'logo_app', 'logo_register.png'),
 	('app', 'logo_login', 'logo_login.png'),
 	('app', 'logo_register', 'logo_register.png'),
 	('layout', 'color_scheme', 'blue'),
@@ -366,7 +366,7 @@ CREATE TABLE IF NOT EXISTS `setting_kartu` (
 
 -- Dumping data for table idcard_pelajar.setting_kartu: ~2 rows (approximately)
 INSERT INTO `setting_kartu` (`id_setting_kartu`, `nama_setting`, `gunakan`, `background_depan`, `background_belakang`, `kartu_width`, `kartu_height`, `kartu_margin_left`, `kartu_margin_top`, `kartu_margin_right`, `kartu_margin_bottom`, `data_depan_margin_left`, `data_depan_margin_top`, `data_depan_font_size`, `data_depan_font_family`, `data_depan_font_weight`, `data_depan_text_align`, `data_depan_line_height`, `data_depan_show_label`, `data_depan_label_width`, `foto_margin_left`, `foto_margin_top`, `foto_width`, `foto_height`, `berlaku_gunakan`, `berlaku_posisi`, `berlaku_jenis`, `berlaku_custom_text`, `berlaku_periode_prefix`, `berlaku_margin_left`, `berlaku_margin_top`, `berlaku_hingga_tanggal`, `berlaku_font_family`, `berlaku_font_size`, `berlaku_font_weight`, `ttd_gunakan`, `ttd_posisi`, `ttd_text`, `ttd_text_align`, `ttd_text_font_weight`, `ttd_text_font_family`, `ttd_text_font_size`, `ttd_text_space_sign`, `ttd_text_margin_left`, `ttd_text_margin_top`, `ttd_cap_image`, `ttd_cap_width`, `ttd_cap_height`, `ttd_cap_margin_left`, `ttd_cap_margin_top`, `ttd_sign_image`, `ttd_sign_width`, `ttd_sign_height`, `ttd_sign_margin_left`, `ttd_sign_margin_top`, `qrcode_gunakan`, `qrcode_posisi`, `qrcode_version`, `qrcode_ecc_level`, `qrcode_size_module`, `qrcode_padding`, `qrcode_margin_left`, `qrcode_margin_top`, `qrcode_content_jenis`, `qrcode_content_field_database`, `qrcode_content_global_text`) VALUES
-	(1, 'Kartu Jagowebdev', 'N', 'kartu_depan_new.png', 'kartu_belakang_new.png', 85.6, 54.0, NULL, NULL, NULL, NULL, 28.0, 16.6, 11, 'arial', 'bold', 'left', 15.0, 'Y', 12.0, 5.0, 17.6, 20.0, 25.0, 'Y', 'depan', 'custom_text', 'Berlaku selama menjadi siswa', 'Berlaku s.d.', 5.0, 45.0, '0000-00-00', 'arial', 10, 'bold', 'Y', 'depan', 'Semarang, 11 Juni {{YEAR}}\r\nRektor,\r\n\r\nAgus Prawoto Hadi\r\nNIP 199007102004121002', 'left', 'bold', 'arial', 10.0, 4.0, 50.0, 35.0, 'stempel.png', 15.0, 15.0, 46, 35.0, 'tanda_tangan.png', 15.0, 15.0, 55.8, 35.0, 'Y', 'belakang', 4, 'L', 1.5, '3px', 67.2, 35.4, 'field_database', 'nisn', 'url: <a href="https://jagowebdev.com">Jagowebdev.com</a>'),
+	(1, 'Kartu Jagowebdev', 'N', 'kartu_depan_new.png', 'kartu_belakang_new.png', 85.6, 54.0, NULL, NULL, NULL, NULL, 28.0, 16.6, 11, 'arial', 'bold', 'left', 15.0, 'Y', 12.0, 5.0, 17.6, 20.0, 25.0, 'Y', 'depan', 'custom_text', 'Berlaku selama menjadi siswa', 'Berlaku s.d.', 5.0, 45.0, '0000-00-00', 'arial', 10, 'bold', 'Y', 'depan', 'Semarang, 11 Juni {{YEAR}}\r\nRektor,\r\n\r\nAgus Prawoto Hadi\r\nNIP 199007102004121002', 'left', 'bold', 'arial', 10.0, 4.0, 50.0, 35.0, 'stempel.png', 15.0, 15.0, 46, 35.0, 'tanda_tangan.png', 15.0, 15.0, 55.8, 35.0, 'Y', 'belakang', 4, 'L', 1.5, '3px', 67.2, 35.4, 'field_database', 'nisn', 'url: <a href="https://pdsionline.org">pdsionline.org</a>'),
 	(2, 'Kartu Siswa', 'Y', 'kartu_depan.png', 'kartu_belakang.png', 85.6, 54.0, NULL, NULL, NULL, NULL, 28.0, 16.5, 11, 'arial', 'bold', 'left', 15.0, 'Y', 20.0, 5.0, 16.5, 20.0, 25.0, 'Y', 'depan', 'periode', 'Berlaku selama menjadi siswa', 'Berlaku s.d.', 5.0, 45.0, '2026-07-14', 'arial', 10, NULL, 'Y', 'depan', 'Semarang, 11 Juli {{YEAR}}\r\nRektor,\r\n\r\nAgus Prawoto Hadi\r\nNIP 1990092219921219002', 'left', 'bold', 'arial', 10.0, 4.0, 50.0, 35.0, 'stempel.png', 15.0, 15.0, 43, 35.0, 'tanda_tangan.png', 15.0, 15.0, 50.0, 35.0, 'Y', 'belakang', 4, 'L', 1.5, '4px', 66.2, 31.7, 'field_database', 'nis', 'Sample Text');
 
 -- Dumping structure for table idcard_pelajar.setting_printer

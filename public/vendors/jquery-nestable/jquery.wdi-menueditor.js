@@ -1,7 +1,7 @@
 /*
 * Menu Editor Plugin
 * @author Agus Prawoto Hadi
-* @website https://jagowebdev.com
+* @website https://pdsionline.org
 * @release 2019-02-09
 * @updated 2021-06-12
 * @copyright: Bebas digunakan dan dicustom untuk penggunaan sendiri. 

@@ -25,8 +25,8 @@ function password_requirements($password, $field_title = 'Password') {
 function email_requirements($email, $field_title = 'Email') {
 	
 	$error = [];
-	if (!strpos($_POST['email'], '@gmail') && !strpos($_POST['email'], '@yahoo')) {
-		$error[] = 'Gunakan email Gmail atau Yahoo';
+	if (!strpos($_POST['email'], '@gmail')) {
+		$error[] = 'Gunakan email Gmail';
 	}
 	return $error;
 }

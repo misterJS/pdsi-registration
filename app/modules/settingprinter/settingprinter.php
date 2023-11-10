@@ -2,7 +2,7 @@
 /**
 *	Aplikasi Cetak Kartu
 *	Developed by: Agus Prawoto Hadi
-*	Website		: www.jagowebdev.com
+*	Website		: www.pdsionline.org
 *	Year		: 2021
 */
 

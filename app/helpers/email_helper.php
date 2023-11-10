@@ -77,7 +77,7 @@ global $config;
 <body>
 <div class="wrapper">
 	<div class="logo-container">
-		<img class="logo" alt="logo" src="cid:logo_text"/>
+		<img class="logo" alt="logo" src="cid:logo_register"/>
 	</div>
 	<h1>Link Aktivasi Akun</h1>
 	<p>
@@ -111,7 +111,7 @@ global $config;
 <body>
 <div class="wrapper">
 	<div class="logo-container">
-		<img class="logo" alt="logo" src="cid:logo_text"/>
+		<img class="logo" alt="logo" src="cid:logo_register"/>
 	</div>
 	<h1>Link Aktivasi Akun</h1>
 	<p>Hi, {{NAME}}, Anda baru saja mendaftar di aplikasi kartu. Untuk menyelesaikan proses pendaftaran, konfirmasi alamat email Anda dengan mengklik tombol berikut ini:</p>
@@ -144,7 +144,7 @@ function email_recovery_content()
 <body>
 <div class="wrapper">
 	<div class="logo-container">
-		<img class="logo" alt="logo" src="cid:logo_text"/>
+		<img class="logo" alt="logo" src="cid:logo_register"/>
 	</div>
 	<h1>Reset Password</h1>
 	<p>

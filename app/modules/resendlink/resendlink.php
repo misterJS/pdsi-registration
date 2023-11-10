@@ -2,7 +2,7 @@
 /**
 *	PHP*	Year		: 2022
 *	Developed by: Agus Prawoto Hadi
-*	Website		: https://jagowebdev.com
+*	Website		: https://pdsionline.org
 *	Year		: 2022
 */
 
@@ -89,7 +89,7 @@ switch ($_GET['action'])
 										, 'to_name' => $user['nama']
 										, 'email_subject' => 'Link Aktivasi Akun'
 										, 'email_content' => $email_content
-										, 'images' => ['logo_text' => BASEPATH . 'public/images/logo_text.png']
+										, 'images' => ['logo_register' => BASEPATH . 'public/images/logo_register.png']
 						);
 						
 						require_once('app/libraries/SendEmail.php');

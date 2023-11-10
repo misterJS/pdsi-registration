@@ -2,7 +2,7 @@
 /**
 *	PHP*	Year		: 2022
 *	Developed by: Agus Prawoto Hadi
-*	Website		: https://jagowebdev.com
+*	Website		: https://pdsionline.org
 *	Year		: 2022
 */
 
@@ -127,7 +127,7 @@ switch ($_GET['action'])
 							$message['message'] = 'Error: Link konfirmasi gagal dikirim... <strong>' . $send_email['message'] . '</strong>';
 							$error = true;
 						} else {
-							$message['message'] = 'Terima kasih telah melakukan registrasi, untuk memastikan bahwa kamu adalah pemilik alamat email <strong>' . $_POST['email'] . '</strong>, mohon klik link konfirmasi yang baru saja kami kirimkan ke alamat email tersebut<br/><br/>Biasanya, email akan sampai kurang dari satu menit, namun jika lebih dari lima menit email belum sampai, coba cek folder spam. Jika email benar benar tidak sampai, silakan hubungi kami di support@jagowebdev.com';
+							$message['message'] = 'Terima kasih telah melakukan registrasi, untuk memastikan bahwa kamu adalah pemilik alamat email <strong>' . $_POST['email'] . '</strong>, mohon klik link konfirmasi yang baru saja kami kirimkan ke alamat email tersebut<br/><br/>Biasanya, email akan sampai kurang dari satu menit, namun jika lebih dari lima menit email belum sampai, coba cek folder spam. Jika email benar benar tidak sampai, silakan hubungi kami di support@pdsionline.org';
 						}
 					}
 					
@@ -258,7 +258,7 @@ function send_confirm_email($id_user)
 					, 'to_name' => $_POST['nama']
 					, 'email_subject' => 'Konfirmasi Registrasi Akun'
 					, 'email_content' => $email_content
-					, 'images' => ['logo_text' => BASEPATH . 'public/images/logo_text.png']
+					, 'images' => ['logo_register' => BASEPATH . 'public/images/logo_register.png']
 	);
 	
 	require_once('app/libraries/SendEmail.php');

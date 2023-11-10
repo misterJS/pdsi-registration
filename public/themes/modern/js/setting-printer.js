@@ -2,7 +2,7 @@
 * App		: Aplikasi Kartu Pelajar
 * Author	: Agus Prawoto Hadi
 * Year		: 2022
-* Website	: jagowebdev.com
+* Website	: pdsionline.org
 */
 
 jQuery(document).ready(function () {

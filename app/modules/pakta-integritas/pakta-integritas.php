@@ -1,14 +1,7 @@
-<?php
+<?php 
 
-/**
- *	Aplikasi Cetak Kartu
- *	Developed by: Agus Prawoto Hadi
- *	Website		: www.pdsionline.org
- *	Year		: 2021
- */
 
-$site_title = 'Data Pendidikan';
-$js[] = THEME_URL . 'js/image-upload.js';
+$site_title = 'Pakta Integritas';
 $js[] = BASE_URL . 'public/vendors/bootstrap-datepicker/js/bootstrap-datepicker.js';
 $js[] = BASE_URL . 'public/themes/modern/js/date-picker.js';
 $js[] = BASE_URL . 'public/themes/modern/js/image-upload.js';

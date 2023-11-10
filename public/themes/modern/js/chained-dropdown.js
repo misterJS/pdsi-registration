@@ -2,7 +2,7 @@
 * App		: PHP Admin Template
 * Author	: Agus Prawoto Hadi
 * Year		: 2021-2022
-* Website	: jagowebdev.com
+* Website	: pdsionline.org
 */
 
 jQuery(document).ready(function () {
